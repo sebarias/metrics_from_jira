@@ -2,9 +2,9 @@
 
 JIRA v7 server + Python 3.7 + DASH + Plotly + FIREBASE
 
-Esta aplicación obtiene datos de Jira usando su API REST, para luego almacenarlos en una Base de datos No Sql en Firebase.
+Este proyecto tiene por objetivo obtener datos de Jira usando su API REST, para luego almacenarlos en una Base de datos No Sql en Firebase.
 De esta manera se evita sobrecargar Jira con peticiones al servidor.
-Con la data almacenada, se grafican en dos scatter plot, para Cycle Time y Lead Time y un Histograma para visualizar el Througput del proyecto analizado.
+Con la data obtenida, se grafican en dos scatter plot, para Cycle Time y Lead Time y un Histograma para visualizar el Througput del proyecto analizado.
 
 Archivos de configuración necesarios:
 
