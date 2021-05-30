@@ -8,6 +8,14 @@ Con la data almacenada, se grafican en dos scatter plot, para Cycle Time y Lead 
 
 Archivos de configuración necesarios:
 
+- jira_creds.json : Archivo json que contiene las credenciales de JIRA en los siguientes atributos
+      - user
+      - password
+   `{
+            "user":"XXXX",
+            "password":"XXXX"
+    }`
+
 - firebase_config.json: contiene dos atributos
       - file_path = path de json que contiene las credenciales de Firebase
       - databaseURL = url de la base de datos de Firebase
